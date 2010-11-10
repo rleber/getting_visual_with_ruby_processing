@@ -2,7 +2,7 @@
 class Texture < Processing::App
  def setup
     size 640, 360, P3D
-    @img = load_image "berlin-1.jpg"
+    @img = load_image "yoda.jpg"
     no_stroke
   end
   
