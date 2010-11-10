@@ -1,6 +1,6 @@
 def setup
-  size 200, 200
-  @image = load_image 'sunflower.jpg'
+  size 267, 200
+  @image = load_image 'trex.jpg'
   @image_pixels = @image.pixels.
     map {|p| [red(p), green(p), blue(p)]}
 end
